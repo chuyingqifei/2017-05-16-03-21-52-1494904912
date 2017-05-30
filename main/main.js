@@ -4,7 +4,7 @@
   if(splitStr.length != 2){
 	  return false;
   }
-  boolean result = false;
+  var result = false;
   for(var i = 0;i<suffixes.length;i++){
 	  if(suffixes[i] === splitStr[1]){
 		  result = true;
